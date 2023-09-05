@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    max-width: 1400px;
+    width: 100%;
+    height: 100vh;
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    width: 650px;
+}
+
+.card-img {
+    overflow: hidden;
+    border-radius: 10px 0px 0px 10px;
+    flex: 1;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details {
+    flex: 1 ;
+    background: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius:0px 10px 10px 0px ;
+}
+
+.details > .name {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', serif;
+    font-weight: 500;
+}
+
+.details > h1 {
+    font-family: 'Fraunces',serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.details > .name-1 {
+    font-family: 'Montserrat', serif;
+    color: hsl(228, 12%, 48%);
+    margin: 20px 0px 20px 0px;
+    font-weight: 500;
+}
+
+.money {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.money > .money-1 {
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    font-family: 'Fraunces',serif;
+}
+
+.money > .money-2 {
+    color:hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-weight: 500;
+    font-family: 'Montserrat', serif;
+}
+
+.btn > button {
+    border: none;
+    background: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    border-radius: 10px;
+    gap: 10px;
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn > button:hover {
+    background: hsl(161, 36%, 21%);
+
+}
